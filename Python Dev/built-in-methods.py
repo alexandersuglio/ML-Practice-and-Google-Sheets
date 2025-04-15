@@ -40,3 +40,18 @@ print(result)
 
 result = [i for i in range(20) if i % 3 == 0 or i % 5 == 0]
 print(result)  
+
+# math library
+import math 
+
+# some useful methods
+print(math.pi)
+print(math.e)
+
+print(math.pow(2, 3))
+print(math.sqrt(16))
+
+print(math.ceil(4.9))
+print(math.floor(4.2))
+
+print(math.factorial(5))
