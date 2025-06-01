@@ -25,3 +25,5 @@ for epoch in range(300):
     optimizer.apply_gradients(zip(gradients, [W, b]))  # Gradient descent step
 
 print(f"Trained W: {W.numpy()}, b: {b.numpy()}")
+
+# Trained W: 1.7916418313980103, b: -0.38740167021751404
